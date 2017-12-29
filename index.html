@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Blog de Música</title>
   </head>
-  <body>
+  <body style="background:#ca3523;">
     <div class="container">
-        <div class="row"  >
+        <div class="row" style="padding-bottom:6px; padding-top:6px;" >
           <div class="col-md-4 align-items-end justify-content-start" id="logo">
             <img src="img/logo.jpg" class="img-circle" style=" width:25%"><h1>rtMusic</h1>
           </div>
@@ -23,7 +23,7 @@
               <a class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>
           </div>
       </div>
-      <div class="row">
+      <div class="row" id="barra">
         <div class="col">
           <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
             <div class="navbar-nav">
@@ -38,17 +38,52 @@
 
         </div>
       </div>
-      <div class="row">
+      <div class="row" style="padding-top:30px; padding-left:10px;">
         <div class="col-md-8">
-          <div class="col">noticia1</div>
-          <div class="col">noticia2</div>
+          <div class="row">
+            <div class="col-md-7">
+              <h3 class="text-justify">ANGRA PRESENTA SU NUEVO DISCO "SECRET GARDEN"</h3>
+              <p class="text-justify">Secret Garden” es el nuevo trabajo discográfico de ANGRA y supone toda una demostración de que la banda capitaneada por los guitarristas Kiko Loureiro y Rafael Bittencourt quiere seguir adelante y reinventarse una vez  más, después de la marcha de su cantante Edu Falaschi y la huída, una vez más, del batería clásico de la formación, Ricardo Confessori. Se le puede achacar muchas cosas a la banda, pero, desde luego, no se puede negar su espíritu de lucha y su amor por la música, reponiéndose de tantos cambios, que otras bandas ya habrían tirado la toalla.</p>
+            </div>
+            <div class="col-md-5 justify-content-center align-items-center" id="img1_not">
+              <img src="img/Angra-SG.jpg" width="100%" height="100%" alt="">
+              </div>
+            <div class="col" style="margin: 10px 0px 40px 0px;">
+              <div class="input-group input-group-lg">
+                <span class="input-group-addon "><i class="fa fa-user" aria-hidden="true"></i></span>
+                <textarea class="form-control" rows="1" id="comment" placeholder="Comentar"></textarea>
+             </div>
+
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-5 justify-content-center align-items-center" id="img1_not">
+              <img src="img/Mike.jpg" width="100%" height="100%" alt="">
+            </div>
+            <div class="col-md-7">
+              <h3 class="text-justify">MIKE MANGINI EL NUEVO BATERISTA DE DREAM THEATER"</h3>
+              <p class="text-justify">SLa reconocida banda estadounidense de metal progresivo ha dado a conocer oficialmente a su nuevo integrante en reemplazo de Mike Portnoy, quien anunció su salida de la banda en septiembre de 2010 luego de 25 años de carrera con la misma. Se trata de Mike Mangini, un estadounidense de 48 años y con una carrera impresionante. Es posiblemente uno de los mejores baterístas del mundo y además ostenta tres de los records mundiales del baterista más rápido del mundo, uno de ellos por consegir dar nada menos que 1203 golpes de baqueta en 60 segundos. Comenzó a tocar la batería a los 5 anos y en 1987 se graduó de Ciencias de la Computación en la Universidad de Bentley</p>
+            </div>
+              <div class="col" style="margin: 10px 0px 40px 0px;">
+                <div class="input-group input-group-lg">
+                  <span class="input-group-addon "><i class="fa fa-user" aria-hidden="true"></i></span>
+                  <textarea class="form-control" rows="1" id="comment" placeholder="Comentar"></textarea>
+               </div>
+          </div>
+        </div>
         </div>
         <div class="col-md-4">
-          <div class="col">busqueda1</div>
+          <div class="col" style="margin-bottom:20px;">
+            <div class="input-group input-group-lg">
+              <input type="text" class="form-control"  placeholder="Buscar" >
+              <span class="input-group-addon "><i class="fa fa-search" aria-hidden="true"></i></span>
+           </div>
+          </div>
           <div class="col">busqueda2</div>
 
         </div>
-      </div>
+
 
     </div>
 

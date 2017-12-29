@@ -1,6 +1,15 @@
 div{
 
-  padding: 1px;
+
+}
+
+.row{
+background: white;
+}
+
+
+#barra{
+  margin-bottom: 10px;
 }
 
 #logo{
@@ -10,6 +19,9 @@ display: flex;
   display: flex;
 }
 
+#img1_not{
+  display: flex;
+}
 .nav-item {
   margin: 0px 50px 0px 50px;
 }
